@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 15px 0;
+}
+
+body, #btn,input[type=text],input[type=password], h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+h1{
+    color: #576369;
+    font-size: 20px;
+}
+.wrapper, .content, .menu, body, html{
+    height: 100%;
+    
+}
+
+.wrapper{
+    display: flex;
+
+}
+
+.content{
+    width: 100%;
+    flex:1;
+    background: #FCFCFD;
+}
+
+.menu{
+    width: 10%;
+    background: #464E78;
+    padding: 20px;
+    
+}
+.logo{
+    width: 100%;
+}
+.logo-flex img{
+    display: flex;
+    padding: 5px 19px 5px 19px;
+    align-items: center;
+    /* width: 192px;
+    height: 89px; */
+    width: 10%;
+    border: solid 1px #FCFCFD;
+}
+.text-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.block{
+    margin: 40px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #EEEFF2;
+}
+.menu a{
+    display: block;
+    color: #fff;
+    /* margin: 20px 0; */
+    padding: 10px 25px;
+    text-transform: uppercase;
+
+}
+.menu a:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button{
+    background: #34C0E2;
+    color: #fff;
+    border: 1px solid #34C0E2;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 0px 5px 0px 5px;
+}
+input[type=text],input[type=password]{
+    padding: 8px;
+    border: 1px solid #EEEFF2;
+    border-radius: 8px;
+    color: #ADB6BA;
+    width: 300px;
+    outline-style: none;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.users-table table{
+    width: 50%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.users-table table td{
+    border: 1px solid #e0e8ed;
+    padding: 5px 10px;
+}
+.users-table table thead{
+    background-color: #5593e5;
+    color: #fff;
+}
+.users-table table th{
+    border: 1px solid #e0e8ed;
+    padding: 5px 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+.users-map{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.users-table{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.button-td{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
